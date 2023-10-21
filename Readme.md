@@ -57,3 +57,13 @@ netstat -tuln | grep 8000
 ```bash
 sudo lsof -i :8000
 ```
+
+Узнать какие зависимости нужны исполняемому файлу:
+```bash
+ldd ./Main
+```
+
+Установить нужные зависимости
+```bash
+sudo apt update && sudo apt upgrade
+```
